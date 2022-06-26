@@ -1,0 +1,47 @@
+.container {
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: $main;
+
+  &__left {
+    @extend %flex-align;
+    padding: 10px 32px;
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+
+  &:hover {
+    background-color: #11a3a6;
+  }
+
+  &:active {
+    background-color: #037578;
+  }
+
+  &:disabled {
+    color: $gray_scale_55;
+    background-color: $gray_scale_92;
+  }
+
+  &_primary {
+    @extend %button_medium;
+  }
+
+  &_medium {
+    padding: 11px 40px;
+  }
+
+  &_large {
+    padding: 18px 40px;
+  }
+
+  &_ghost {
+    background-color: transparent;
+    color: #5b708f;
+    &:hover {
+      background: none;
+    }
+  }
+}

@@ -1,0 +1,117 @@
+%text_center {
+  text-align: center;
+}
+
+%text_justify {
+  text-align: justify;
+}
+
+%text_left {
+  text-align: left;
+}
+
+%text_right {
+  text-align: right;
+}
+
+%heading_extra {
+  font-family: $primary_family;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: $black;
+}
+
+%heading_large {
+  font-family: $primary_family;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  color: $black;
+}
+
+%heading_medium {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: $black;
+}
+
+%heading_small {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: $black;
+}
+
+%text_regular {
+  font-family: $secondary_family;
+  font-size: 16px;
+  line-height: 24px;
+  color: $black;
+}
+
+%text_semibold {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: $black;
+}
+
+%text_small {
+  font-family: $secondary_family;
+  font-size: 12px;
+  line-height: 16px;
+  color: $black;
+}
+
+%text_medium {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: $main;
+}
+
+%button_medium {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: $white;
+}
+
+%button_small {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: $white;
+}
+
+%button_small {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: $gray_scale_55;
+}
+
+%link_small {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  color: $main;
+}
+
+%link_medium {
+  font-family: $secondary_family;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: $main;
+}

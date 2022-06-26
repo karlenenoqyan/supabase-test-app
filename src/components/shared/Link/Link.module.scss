@@ -1,0 +1,11 @@
+.container {
+  &_active {
+    color: $black !important;
+    font-weight: bold;
+  }
+
+  &_disabled {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+}

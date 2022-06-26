@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding: 14px 16px;
+  border-radius: 8px;
+  color: $gray_scale_12;
+  transition: all 0.1s;
+  border: 1px solid $gray_scale_92;
+  @extend %text_regular;
+
+  &::placeholder {
+    color: $gray_scale_55;
+  }
+
+  &:hover {
+    border-color: $gray_scale_77;
+  }
+
+  &:active,
+  &:focus {
+    border-color: $main;
+  }
+
+  &_with_icon {
+    padding-right: 50px;
+  }
+
+  &__inner {
+    position: relative;
+    @extend %flex-align;
+    @extend %input-margin;
+
+    &__error {
+      margin-bottom: 0;
+    }
+
+    &_disabled {
+      background-color: $gray_scale_97;
+    }
+  }
+
+  &__label {
+    @extend %text_small;
+    font-weight: 600;
+    color: $gray_scale_55;
+  }
+
+  &__error {
+    border-color: $error !important;
+
+    &__text {
+      color: $error;
+      @extend %input-margin;
+    }
+  }
+
+  &__right_icon {
+    right: 16px;
+    cursor: pointer;
+    position: absolute;
+  }
+}

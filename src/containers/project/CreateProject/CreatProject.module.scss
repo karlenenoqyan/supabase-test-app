@@ -1,0 +1,5 @@
+.container {
+  @include breakpoint(tablet) {
+    margin-bottom: 120px;
+  }
+}

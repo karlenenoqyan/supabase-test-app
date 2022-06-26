@@ -1,0 +1,89 @@
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: {
+    left: auto;
+    right: auto;
+    top: 24px;
+    bottom: 24px;
+  }
+
+  @include breakpoint(wide) {
+    padding: {
+      right: 16px;
+      left: 16px;
+    }
+  }
+}
+
+.container__auth {
+  max-width: 475px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.text_center {
+  @extend %text_center;
+}
+
+.text_justify {
+  @extend %text_justify;
+}
+
+.text_left {
+  @extend %text_left;
+}
+
+.text_right {
+  @extend %text_right;
+}
+
+.heading_extra {
+  @extend %heading_extra;
+}
+
+.heading_large {
+  @extend %heading_large;
+}
+
+.heading_medium {
+  @extend %heading_medium;
+}
+
+.heading_small {
+  @extend %heading_small;
+}
+
+.text_regular {
+  @extend %text_regular;
+}
+
+.text_small {
+  @extend %text_small;
+}
+
+.text_medium {
+  @extend %text_medium;
+}
+
+.text_semibold {
+  @extend %text_semibold;
+}
+
+.button_medium {
+  @extend %button_medium;
+}
+
+.button_small {
+  @extend %button_small;
+}
+
+.link_medium {
+  @extend %link_medium;
+}
+
+.link_small {
+  @extend %link_small;
+}

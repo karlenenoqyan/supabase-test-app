@@ -1,0 +1,12 @@
+.container {
+  &__preview {
+    @extend %flex-center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+
+    &__image {
+      margin-top: 24px;
+    }
+  }
+}

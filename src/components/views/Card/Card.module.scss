@@ -1,0 +1,39 @@
+.container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+  &__image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: linear-gradient(
+          76.26deg,
+          rgba($black, 0.51) 0%,
+          rgba($black, 0) 22.95%
+        ),
+        linear-gradient(180deg, rgba($black, 0) 47.06%, rgba($black, 0.65) 100%);
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+    }
+  }
+
+  &__text {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
